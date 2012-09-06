@@ -1,0 +1,2 @@
+<a href="#" class="pull-right margin_top_10" title="Montclair State University"><img src="../assets/img/msu-logo.png" alt="MSU Logo"/></a>
+<h1>MSU Lab Usage<br /><small>Administration and Reporting Console</small></h1>

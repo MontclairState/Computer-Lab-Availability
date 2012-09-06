@@ -1,0 +1,8 @@
+(1) Install database from db/install.sql. It contains database with sample data.
+(2) Copy src folder to local disk.
+(3) Make src/public as web root of the application.
+(4) Make sure that webserver user has read/write permission to src/logs folder and their contents (app.log, php.log).
+(4) Make necessary changes in src/config.php.
+(5) Replace https://server with your server address in src/public/chart.php.
+(6) Restart web server to make changes.
+(7) Customize src/public/index.php for appropriate labs.

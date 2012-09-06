@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Login with MSU NetID/Password"
+AuthBasicProvider ldap
+AuthzLDAPAuthoritative on
+AuthLDAPURL ldaps://ldap.montclair.edu/ou=People,o=montclair.edu,dc=montclair,dc=edu?uid
+Require ldap-user pateld yasat1 turchynv jonessu davages goldbergma macka dartl hopkinske hermanr sprungc greent salgadof baptistea louisa glackinp
+

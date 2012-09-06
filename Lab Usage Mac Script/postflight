@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Sets a Login and Logout hook
+# Change path to match the location of login-map.sh and logout-map.sh
+
+/usr/bin/defaults write com.apple.loginwindow LoginHook /Library/Lab\ Usage/login-map.sh
+/usr/bin/defaults write com.apple.loginwindow LogoutHook /Library/Lab\ Usage/logout-map.sh
+
+
+exit 0

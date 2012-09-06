@@ -1,0 +1,177 @@
+/* ----------------------------------------------------------------------------
+[ Overridden Style from Base bootstrap ]
+---------------------------------------------------------------------------- */
+.well {
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.nav .nav-header {
+    letter-spacing: 1px;
+}
+
+
+/* ----------------------------------------------------------------------------
+[ Application specific styles ]
+---------------------------------------------------------------------------- */
+.panel {
+    position: relative;
+    clear: both;
+    width: auto;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+.panel-header {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background: #E9E9E9;
+    background:-moz-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#E9E9E9));
+    background:-webkit-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+    background:-o-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+    background:-ms-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+    background:linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9')";
+    border: 1px solid #D5D5D5;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-background-clip: padding-box;
+}	
+
+.panel-header h3 {
+    position: relative;
+    top: 2px;
+    left: 5px;
+    display: inline-block;
+    margin-right: 3em;
+    font-size: 1em;
+    font-weight: 700;
+    color: #444;
+    line-height: 18px;
+    text-shadow: 1px 1px 2px rgba(255,255,255,.5);
+}
+
+.panel-header h3 small {
+    color: #777;
+}
+
+.panel-header [class^="icon-"], .panel-header [class*=" icon-"] {
+    display: inline-block;
+    margin-left: 13px;
+    margin-right: -2px;
+    font-size: 16px;
+    color: #555;
+    vertical-align: middle;
+}
+
+.panel-content {
+    padding: 20px 15px 15px;
+    background: #FFF;
+    border: 1px solid #D5D5D5;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.panel-header+.panel-content {
+    border-top: none;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.panel-nopad .panel-content {
+    padding: 0;
+}
+	
+.panel-content:before, .panel-content:after {
+    content:"";
+    display:table;
+}
+
+.panel-content:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.panel-content {
+    zoom:1;
+}
+
+.footer {
+    margin-top: 15px;
+    min-width: 940px;
+    padding: 15px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer p {
+  color: #555;
+}
+
+label.required {
+    font-weight: bold;
+}
+
+/* Margin */
+.margin_bottom_0 { margin-bottom: 0; }
+.margin_bottom_5 { margin-bottom: 5px; }
+.margin_bottom_10 { margin-bottom: 10px; }
+.margin_bottom_15 { margin-bottom: 15px; }
+.margin_bottom_20 { margin-bottom: 20px; }
+.margin_bottom_25 { margin-bottom: 25px; }
+.margin_top_0 { margin-top: 0; }
+.margin_top_5 { margin-top: 5px; }
+.margin_top_10 { margin-top: 10px; }
+.margin_top_15 { margin-top: 15px; }
+.margin_top_20 { margin-top: 20px; }
+.margin_top_25 { margin-top: 25px; }
+.margin_left_0 { margin-left: 0; }
+.margin_left_5 { margin-left: 5px; }
+.margin_left_10 { margin-left: 10px; }
+.margin_left_15 { margin-left: 15px; }
+.margin_left_20 { margin-left: 20px; }
+.margin_left_25 { margin-left: 25px; }
+.margin_right_0 { margin-right: 0; }
+.margin_right_5 { margin-right: 5px; }
+.margin_right_10 { margin-right: 10px; }
+.margin_right_15 { margin-right: 15px; }
+.margin_right_20 { margin-right: 20px; }
+.margin_right_25 { margin-right: 25px; }
+
+/* Padding */
+.padding_bottom_0 { padding-bottom: 0;}
+.padding_bottom_5 { padding-bottom: 5px; }
+.padding_bottom_10 { padding-bottom: 10px; }
+.padding_bottom_15 { padding-bottom: 15px; }
+.padding_bottom_20 { padding-bottom: 20px; }
+.padding_bottom_25 { padding-bottom: 25px; }
+.padding_top_0 { padding-top: 0;}
+.padding_top_5 { padding-top: 5px; }
+.padding_top_10 { padding-top: 10px; }
+.padding_top_15 { padding-top: 15px; }
+.padding_top_20 { padding-top: 20px; }
+.padding_top_25 { padding-top: 25px; }
+.padding_left_0 { padding-left: 0;}
+.padding_left_5 { padding-left: 5px; }
+.padding_left_10 { padding-left: 10px; }
+.padding_left_15 { padding-left: 15px; }
+.padding_left_20 { padding-left: 20px; }
+.padding_left_25 { padding-left: 25px; }
+.padding_right_0 { padding-right: 0;}
+.padding_right_5 { padding-right: 5px; }
+.padding_right_10 { padding-right: 10px; }
+.padding_right_15 { padding-right: 15px; }
+.padding_right_20 { padding-right: 20px; }
+.padding_right_25 { padding-right: 25px; }
+
