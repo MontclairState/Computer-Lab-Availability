@@ -1,0 +1,14 @@
+Instructions: 
+
+Replace server in LogIN.bat and LogOut.bat with your server address
+
+1. Copy files ( curl.exe and LogIN.bat) into C:\Windows\System32\GroupPolicy\User\Scripts\Logon . 
+    Copy files ( curl.exe and LogOut.bat ) into C:\Windows\System32\GroupPolicy\User\Scripts\Logoff 
+2. Open gpedit.msc 
+    a) add LogIN.bat script to the Logon Scripts under "User Configuration --> Windows Settings" 
+    b) add LogOff.bat script to the Logoff Sctips under "User Configuration --> Windows Settings" 
+3. In gpedit under "User Configuration --> Administrative Templates --> System --> Scripts" disable the following rules: 
+    a) Run logoff scripts visible 
+    b) Run logon scripts synchronously 
+    c) Run logon scripts visible 
+4. Restart the workstation.
