@@ -3,16 +3,18 @@ Computer-Lab-Availability
 
 <b>INTRODUCTION</b>
 <p>
-Computer Lab Availability is a web based system designed to provide computer availability information for computers in a lab environment.
-The public facing Computer Lab Availability site is live and can be found at https://oit-app2.montclair.edu/labusage
+Computer Lab Availability is a web based system designed to provide real-time computer availability information for computers in a lab environment.
+A public facing Computer Lab Availability site is live and can be found at https://oit-app2.montclair.edu/labusage
 <br>
 The Admin side can been seen in the <a href="https://github.com/MontclairState/Computer-Lab-Availability/tree/master/Screenshots">screenshots folder</a>
 
 <b>FEATURES AND CAPABILITIES</b>
 <p>
-Computer Lab Availability features an attractive, mobile compatible, website that gives users the ability to quickly review which computer labs have available computers. Users can click on details next to each lab to view exactly which computers are available. The system is compatible with both Windows and Mac computers. 
-The lab computers use Login and Logout Hooks to update a database that displays the computer status.
-On the Administrator side, the system features and easy to use ajax interface that allows for configuring the labs, edit computers status and pull detailed usage reports. 
+Computer Lab Availability features an attractive, mobile compatible website that gives users the ability to quickly review which computer labs have available computers. Users can click on details button next to each lab to view exactly which computers are available.
+<p>
+The system is compatible with both Windows and Mac computers. 
+The lab computers use Login and Logout Hooks with curl to update a database that displays the computer status.
+On the Administrator side, the system features and easy to use ajax interface that allows for configuring the labs, edit computers status (setting a computer to maintenance mode) and pull detailed usage reports. 
 
 <b>COMPONENTS AND CREDITS</b>
 <p>
