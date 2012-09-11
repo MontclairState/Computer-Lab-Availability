@@ -3,10 +3,10 @@ Computer-Lab-Availability
 
 <b>INTRODUCTION</b>
 <p>
-Computer Lab Availability is a web based system designed to provide real-time computer availability information for computers in a lab environment.
+Computer Lab Availability is a web-based system designed to provide real-time computer availability information for computers in a lab environment.
 A public facing Computer Lab Availability site is live and can be found at https://oit-app2.montclair.edu/labusage
 <br>
-The Admin side can been seen in the <a href="https://github.com/MontclairState/Computer-Lab-Availability/tree/master/Screenshots">screenshots folder</a>
+The Administrator side can been seen in the <a href="https://github.com/MontclairState/Computer-Lab-Availability/tree/master/Screenshots">screenshots folder</a>
 
 <b>FEATURES AND CAPABILITIES</b>
 <p>
@@ -38,7 +38,7 @@ Directions for server and client setup can be found in their respective folders
 
 <b>LIMITATIONS AND DEPENDENCIES</b>
 <p>
-Computer Lab Availability currently relies on the command-line "curl" binary to upload the computer status. curl is available on OS X and Windows (32bit and 64bit) versions. See http://curl.haxx.se for more information.
+Computer Lab Availability currently relies on the command-line "curl" binary to upload the computer status. Curl is available on OS X and Windows (32bit and 64bit) versions. See http://curl.haxx.se for more information.
 
 <b>LICENSE</b>
 <p>
