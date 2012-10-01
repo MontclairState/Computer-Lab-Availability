@@ -148,7 +148,7 @@ $labList = array();
                                                 </div>
                                                 <div class="form-actions">
                                                     <button class="btn btn-primary" type="submit" title="Save changes">Submit</button>
-                                                    <button class="btn" type="reset" onclick="return resetCompForm();">Reset</button>
+                                                    <button class="btn" type="button" onclick="return resetCompForm();">Add new</button>
                                                 </div>
                                                 <input name="compid" type="hidden" id="compid" />
                                             </fieldset>
