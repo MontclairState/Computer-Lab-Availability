@@ -13,6 +13,9 @@ require_once("../config.php");
         <?php include("css_styles.php"); ?>
                 
         <style type="text/css">
+            div.lab-info {
+                margin-bottom: 20px;
+            }
             div.lab-info h3 {
                 line-height: 1.1em;
                 margin-bottom: 10px;
@@ -73,110 +76,11 @@ require_once("../config.php");
             </div>
             <!-- End legends -->
 
-            <div class="row">
-                <div class="span4 lab-info" id="UN5007"> <!-- ID = lab_name -->
-                    <h2 class="l_title"></h2>
-                    <h3 class="l_subtitle"></h3>                    
-                    <div id="UN5007_chart" class="chart_container"></div>
-                    <p class="l_avail"></p>
-                    <p class="l_occup"></p>
-                    <p class="l_maint"></p>
-                    <p class="l_total"></p>
-                    <p class="l_button"></p>
-                    <div id="UN5007_details" class="modal hide">
-                        <div class="modal-header">
-                            <a href="#" class="close" data-dismiss="modal">&times;</a>
-                            <h3 class="m_title"></h3>
-                        </div>
-                        <div class="modal-body"></div>
-                        <div class="modal-footer">
-                            <a href="#" class="btn primary" data-dismiss="modal">Close</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="span4 lab-info" id="UN5008"> <!-- ID = lab_name -->
-                    <h2 class="l_title"></h2>
-                    <h3 class="l_subtitle"></h3>                    
-                    <div id="UN5008_chart" class="chart_container"></div>
-                    <p class="l_avail"></p>
-                    <p class="l_occup"></p>
-                    <p class="l_maint"></p>
-                    <p class="l_total"></p>
-                    <p class="l_button"></p>
-                    <div id="UN5008_details" class="modal hide">
-                        <div class="modal-header">
-                            <a href="#" class="close" data-dismiss="modal">&times;</a>
-                            <h3 class="m_title"></h3>
-                        </div>
-                        <div class="modal-body"></div>
-                        <div class="modal-footer">
-                            <a href="#" class="btn primary" data-dismiss="modal">Close</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="span4 lab-info" id="SC004D"> <!-- ID = lab_name -->
-                    <h2 class="l_title"></h2>
-                    <h3 class="l_subtitle"></h3>                    
-                    <div id="SC004D_chart" class="chart_container"></div>
-                    <p class="l_avail"></p>
-                    <p class="l_occup"></p>
-                    <p class="l_maint"></p>
-                    <p class="l_total"></p>
-                    <p class="l_button"></p>
-                    <div id="SC004D_details" class="modal hide">
-                        <div class="modal-header">
-                            <a href="#" class="close" data-dismiss="modal">&times;</a>
-                            <h3 class="m_title"></h3>
-                        </div>
-                        <div class="modal-body"></div>
-                        <div class="modal-footer">
-                            <a href="#" class="btn primary" data-dismiss="modal">Close</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row margin_top_25">
-                <div class="span4 lab-info" id="UNCART"> <!-- ID = lab_name -->
-                    <h2 class="l_title"></h2>
-                    <h3 class="l_subtitle"></h3>                    
-                    <div id="UNCART_chart" class="chart_container"></div>
-                    <p class="l_avail"></p>
-                    <p class="l_occup"></p>
-                    <p class="l_maint"></p>
-                    <p class="l_total"></p>
-                    <p class="l_button"></p>
-                    <div id="UNCART_details" class="modal hide">
-                        <div class="modal-header">
-                            <a href="#" class="close" data-dismiss="modal">&times;</a>
-                            <h3 class="m_title"></h3>
-                        </div>
-                        <div class="modal-body"></div>
-                        <div class="modal-footer">
-                            <a href="#" class="btn primary" data-dismiss="modal">Close</a>
-                        </div>
-                    </div>
-                </div>                
-                <div class="span4 lab-info" id="CIRC"> <!-- ID = lab_name -->
-                    <h2 class="l_title"></h2>
-                    <h3 class="l_subtitle"></h3>                    
-                    <div id="CIRC_chart" class="chart_container"></div>
-                    <p class="l_avail"></p>
-                    <p class="l_occup"></p>
-                    <p class="l_maint"></p>
-                    <p class="l_total"></p>
-                    <p class="l_button"></p>
-                    <div id="CIRC_details" class="modal hide">
-                        <div class="modal-header">
-                            <a href="#" class="close" data-dismiss="modal">&times;</a>
-                            <h3 class="m_title"></h3>
-                        </div>
-                        <div class="modal-body"></div>
-                        <div class="modal-footer">
-                            <a href="#" class="btn primary" data-dismiss="modal">Close</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Pie charts -->
+            <div class="row" id="lab-charts">
+            </div>            
+            <!-- End Pie charts -->
+            
             <!-- Footer -->
             <footer class="footer margin_top_25">                
                 <p class="pull-right">v 2.0</p>
