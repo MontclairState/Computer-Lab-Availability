@@ -36,7 +36,7 @@ function generatePieCharts(id, lab, loadingDelay) {
         $("div#lab-charts").append("<div class=\"span4 lab-info\" id=\"" + id + "\"></div>");
         $("div#" + id).append("<h2 class=\"l_title\">" + lab.title + "</h2>");
         if(lab.label != "") {
-            $("div#" + id).append("<h3 class=\"l_subtitle\">" + lab.title + "</h3>");
+            $("div#" + id).append("<h3 class=\"l_subtitle\">" + lab.description + "</h3>");
         }
         $("div#" + id).append("<div id=\"" + id + "_chart\" class=\"chart_container\"></div>");
         $("div#" + id).append("<p class=\"l_avail\">Available: " + lab.available + "</p>");
