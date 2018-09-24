@@ -6,3 +6,4 @@
 (5) Replace https://server with your server address in src/public/chart.php.
 (6) Restart web server to make changes.
 (7) Customize src/public/index.php for appropriate labs.
+(8) Setup a cron job to run either cron\cron.sh or cron\cron.bat every hour for historical data.
